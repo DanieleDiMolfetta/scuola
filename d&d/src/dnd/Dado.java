@@ -1,5 +1,5 @@
 package dnd;
-
+//aaa
 public class Dado {
 	public int numFacce;
 	public  int risultato;
