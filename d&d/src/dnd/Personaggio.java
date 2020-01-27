@@ -33,6 +33,7 @@ public class Personaggio {
 	private Oggetto [] inventario;
 	
 	
+	
 	public int CalcolaStatistiche() {
 		Dado d1 = new Dado(8);
 		Dado d2 = new Dado(8);
@@ -138,6 +139,8 @@ public class Personaggio {
 			this.inventario[i] = new Oggetto();
 			
 		}
+		Pozione poz1 = new Pozione();
+		inventario[1] = poz1;
 	}
 	public Personaggio(String n, String c, String r) throws NumberFormatException, IOException {
 		Forza = CalcolaStatistiche();

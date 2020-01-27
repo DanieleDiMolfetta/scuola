@@ -14,10 +14,10 @@ public class Oggetto {
 		
 	}
 	
-	public Oggetto(String n, float c, String r) {
+	public Oggetto(String n) {
 		nome = n;
-		costo = c;
-		rarità = r;
+		//costo = c;
+		
 		
 	}
 
